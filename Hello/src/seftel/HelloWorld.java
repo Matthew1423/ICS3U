@@ -9,7 +9,7 @@ package seftel;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, World ;)");
+		System.out.println("Everybody freeze and put your hands in the air, and wave em like you just don't care, say ohhh! ohhhh!");
 
 	}
 
