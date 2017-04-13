@@ -11,7 +11,7 @@ public class Factorial {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a number to determine its factorial");
-		int x = scan.nextInt();
+		double x = scan.nextInt();
 		System.out.println(factorial(x));
 		}
 	/**
@@ -19,8 +19,8 @@ public class Factorial {
 	 * @param x
 	 * @return the factorial of the given number
 	 */
-	public static int factorial(int x){
-		int product;
+	public static double factorial(double x){
+		double product;
 		if(x<0){
 			return -1;
 		}

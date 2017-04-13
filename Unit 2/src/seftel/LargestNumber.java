@@ -28,6 +28,9 @@ public class LargestNumber {
 		int max = x[0];
 		for(int i = 1; i<x.length; i++){
 			if(x[i]>max){
+				
+				
+				 
 				max = x[i];
 			}
 		
